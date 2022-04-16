@@ -1,0 +1,18 @@
+body{
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h4{
+    color: #005AA7;
+}
+#chat-board{
+    background-color: #1f1fd6;  /* fallback for old browsers */
+background-color: -webkit-linear-gradient(to right, #1CB5E0, #5c5cdd);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 250px;
+}
+#chat-area{
+    background-color: antiquewhite;
+}
