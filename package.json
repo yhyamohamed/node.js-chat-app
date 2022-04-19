@@ -4,13 +4,15 @@
   "description": "chat app with soket.io",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js --ignore /data.json --ignore public/"
   },
   "author": "yaya",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^6.1.2",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "moment": "^2.29.3",
     "mongoose": "^6.3.0",
     "socket.io": "^4.4.1"
   }

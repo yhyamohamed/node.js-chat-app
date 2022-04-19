@@ -1,11 +1,13 @@
 <%- include ('partials/header'); -%>
 
-<div class="d-flex flex-column container text-center mt-4 justify-content-center align-items-center">
+<div class="d-flex flex-column container text-center  justify-content-center align-items-center" style="height: 90%;">
   <h4>welcom Home</h4>
-  <div class="col-7 d-flex flex-column card p-2 rounded shadow-lg p-3 mb-2 border border-warning" id="chat-board">
-    <div id="chat-area" class="card-body col-10 offset-1 border border-info rounded shadow-lg p-3 mb-2 bg-white">This is some text within a card body.</div>
-    <form action="" class="col-10 offset-1 mt-1 d-flex justify-content-center" id="chat-form">
-      <div class="col-9">
+  <div class="col-7 col-sm-7 d-flex flex-column card p-2 rounded shadow-lg p-3 mb-2 border border-warning" id="chat-board">
+    <div id="chat-area" class=" overflow-auto card-body col-10 offset-1 border border-info rounded shadow-lg p-3 mb-2 bg-white">
+     
+    </div>
+    <form action="" class="row col-10 offset-1 mt-1 d-flex justify-content-center" id="chat-form">
+      <div class="col-lg-9  col-sm-12">
         <input id="input-msg" class="form-control border border-success shadow-sm p-2 mb-1"
          type="text" 
          onfocus="this.placeholder = ''"
@@ -13,7 +15,7 @@
         placeholder ='Enter your message'
          aria-label="default input" autocomplete="off" />
       </div>
-      <button type="submit" id="send-btn" class="btn btn-success ms-2 col-2"><i class="fa-solid fa-paper-plane"></i> Send</button>
+      <button type="submit" id="send-btn" class="btn btn-success ms-2 col-lg-2 col-sm-8"><i class="fa-solid fa-paper-plane"></i> Send</button>
     </form>
   </div>
 </div>
